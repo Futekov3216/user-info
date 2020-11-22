@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding:0;
+}
+
+.wrapper {
+    margin: auto;
+    max-width: 280px;
+    font-size: 24px;
+}
+
+.user-container {
+    padding: 30px 0;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.user-container > span {
+    float: left;
+}
+
+.user-container > button {
+    float: right;
+}
+
+.details-wrapper {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 280px;
+    clear: both;
+}
+
+.user-input-holder input {
+    display: inline-block;
+}
+
+.posts-wrapper {
+    margin: auto;
+    max-width: 280px;
+    text-align: justify;
+}
+
+ .active {
+    display: block;
+}
+
+ .inactive {
+    display: none;
+}
